@@ -54,7 +54,7 @@ export default function CreateTaskForm({ onTaskCreated }: CreateTaskFormProps) {
           type="text"
           value={title}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => setTitle(e.target.value)}
-          placeholder="ဥပမာ- Database ချိတ်ဆက်ရန်"
+          placeholder="ဥပမာ- to go to meeting"
           className="w-full px-3 py-2 border rounded-md text-gray-700 text-sm focus:outline-none focus:border-blue-500"
         />
       </div>
